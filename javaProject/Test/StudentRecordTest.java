@@ -1,29 +1,46 @@
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+import org.junit.*;
 
-public class StudentRecordCRUDTest {
+public class StudentRecordTest {
+    private StudentRecord record;
 
-    @Test
-    public void testCreateStudent() {
-        // Implement test case for createStudent method
-        // Example: Create a student and check if it's added to the list
+    @Before
+    public void setUp() {
+        record = new StudentRecord();
     }
 
     @Test
-    public void testReadStudents() {
-        // Implement test case for readStudents method
-        // Example: Create multiple students, call readStudents, and check if all students are listed
+    public void testCreateStudent() {
+        // Test createStudent method
+        Student student = new Student(1, "Alice", 20);
+        record.createStudent(student);
+        assertNotNull(record.readStudent(1));
+    }
+
+    @Test
+    public void testReadStudent() {
+        // Test readStudent method
+        Student student = new Student(2, "Bob", 22);
+        record.createStudent(student);
+        assertEquals("Bob", record.readStudent(2).getName());
     }
 
     @Test
     public void testUpdateStudent() {
-        // Implement test case for updateStudent method
-        // Example: Create a student, update its details, and check if the details are updated correctly
+        // Test updateStudent method
+        Student student = new Student(3, "Charlie", 25);
+        record.createStudent(student);
+        record.updateStudent(3, "David", 30);
+        assertEquals("David", record.readStudent(3).getName());
+        assertEquals(30, record.readStudent(3).getAge());
     }
 
     @Test
     public void testDeleteStudent() {
-        // Implement test case for deleteStudent method
-        // Example: Create a student, delete it, and check if it's removed from the list
+        // Test deleteStudent method
+        Student student = new Student(4, "Eve", 28);
+        record.createStudent(student);
+        record.deleteStudent(4);
+        assertNull(record.readStudent(4));
     }
 }
