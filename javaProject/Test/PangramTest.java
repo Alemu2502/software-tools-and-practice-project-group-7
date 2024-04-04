@@ -8,7 +8,7 @@ import java.io.InputStream;
 class PangramTest {
 
 	    @Test
-	    public void testPangram() {
+	    public void testUserInputPangramChecker() {
 	        String pangramInput = "The quick brown fox jumps over the lazy dog";
 	        String nonPangramInput = "This is not a pangram";
 
