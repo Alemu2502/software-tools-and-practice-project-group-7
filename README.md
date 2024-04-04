@@ -1,5 +1,7 @@
 # software-tools-and-practice-project-group-7
 
+Our participation in this Group Project is as follows:
+
 We tried to fulfill all the questions  with their requirements that were given to us and we did as follows: 
 
 1, Alemu Molla 1306811,  I did it these:
