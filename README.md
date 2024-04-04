@@ -14,3 +14,11 @@ We tried to fulfill all the questions  with their requirements that were given t
  4, Erimiyas Molla 1200763: This team member made junitPlindromeInWord.java.
  5, Fuad Nuru 1301239: This team member made WordReversal.java and WordReversalTest.java (I modified this code). 
  6, Kaleb Melaku 1301697: This team member made StudentRecordCRUD.java and StudentRecordTest.java (I also modified this code).
+
+Name                 Id       username
+1. Alemu Molla    1306811  @Alemu2502
+2. Biruk Girma    1300655  @BirukGirmaMoges
+3. Elias Ferhan   1301001  @ELIASFERHAN1992
+4. Erimiyas Molla 1200763  @Ermias-Molla
+5. Fuad Nuru      1301239  @muhafuad
+6. Kaleb Melaku   1301697  @kaleb13282
