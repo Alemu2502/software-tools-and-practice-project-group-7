@@ -16,20 +16,20 @@ This project includes several Java programs and unit tests that cover a range of
 
 # Features
 
-***Pangram Checker***:
-Checks if a string contains every letter of the alphabet at least once.
-***Word Reversal***: 
-Reverses the words in a given string.
-***Student Record Management***: 
-CRUD operations on student records.
-***Palindrome in Word***: 
-Finds palindromes within a word.
-***Egyptian Fraction***: 
-Converts fractions into their Egyptian fraction representations.
-***Postmortem Analysis***: 
-Debugging and analysis of code to improve performance and correctness.
+***Pangram Checker***: Checks if a string contains every letter of the alphabet at least once.
+
+***Word Reversal***: Reverses the words in a given string.
+
+***Student Record Management***: CRUD operations on student records.
+
+***Palindrome in Word***: Finds palindromes within a word.
+
+***Egyptian Fraction***: Converts fractions into their Egyptian fraction representations.
+
+***Postmortem Analysis***: Debugging and analysis of code to improve performance and correctness.
 
 # Technologies Used
+
 ***Java***: Core programming language for implementation.
 
 ***JUnit***: Framework for writing and running tests.
